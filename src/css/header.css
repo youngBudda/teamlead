@@ -1,21 +1,14 @@
-.header {
-  padding: 20px 0;
-}
-
-.nav-list {
+.header__wrapper {
   display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  gap: 40px;
+  justify-content: space-between;
 }
-
-.nav-link {
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  line-height: 1.5;
+.header__nav {
+  display: none;
 }
-
-.nav-link:hover,
-.nav-link:focus {
-  color: #747bff;
+.basket {
+  display: none;
+}
+.logo {
+  display: flex;
+  gap: 8px;
 }
