@@ -27,9 +27,10 @@
     </div>
 
     <div class="menu">
-      <button class="menu__btn" type="button">
+      <button class="menu__btn" type="button" data-menu-button>
         <svg class="menu__svg" width="24" height="24">
-          <use href="../img/icons1.svg#icon-menu"></use>
+          <use class="menu__icon" href="../img/icons1.svg#icon-menu"></use>
+          <use class="menu__close-icon" href="../img/icons1.svg#icon-close"></use>
         </svg>
       </button>
     </div>
@@ -37,8 +38,25 @@
     <div class="basket">
       <svg class="basket__svg" width="24" height="24">
         <use class="basket__icon" href="../img/icons1.svg#icon-basket"></use>
-        <use class="basket__close-icon" href="../img/icons1.svg#icon-close"></use>
       </svg>
     </div>
+
+    <!-- -------Mobile-menu----- -->
+    <div class="overlay" data-menu>
+      <div class="mobile-menu__wrapper">
+        <ul class="mobile-menu__list">
+          <li class="mobile-menu-item"><a href="" class="mobile-menu__link">How It Works</a></li>
+          <li class="mobile-menu-item"><a href="" class="mobile-menu__link">Fruits</a></li>
+          <li class="mobile-menu-item"><a href="" class="mobile-menu__link">Contacts</a></li>
+          <li class="mobile-menu-item kill">
+            <svg class="mobile-menu__basket-svg" width="24" height="24">
+              <use class="mobile-menu__basket-icon" href="../img/icons1.svg#icon-basket"></use>
+            </svg>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+
   </div>
 </header>

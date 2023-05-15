@@ -23,7 +23,24 @@ body {
   scroll-behavior: smooth;
   /* margin: 0; */
 }
-
+.lock-body {
+  overflow: hidden;
+  height: 100%;
+  margin: 0;
+}
+.lock-html {
+  overflow: hidden;
+  height: 100%;
+  margin: 0;
+}
+@media screen and (min-width: 768px) {
+  .lock-body {
+    overflow: visible;
+  }
+  .lock-html {
+    overflow: visible;
+  }
+}
 .container {
   max-width: 375px;
   padding: 0 20px;
